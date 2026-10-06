@@ -1,0 +1,6 @@
+{
+  "name": "Tender Document Package Builder",
+  "description": "Assemble, validate, order, and generate compliant single-package tender submission PDFs with expiry checks and cover page.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

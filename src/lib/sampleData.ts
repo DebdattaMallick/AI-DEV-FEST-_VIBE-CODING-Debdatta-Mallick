@@ -1,0 +1,77 @@
+import { RequirementsData } from '../types';
+
+export const SAMPLE_REQUIREMENTS_JSON: RequirementsData = {
+  tender: {
+    tender_id: 'T-2026-0417',
+    title: 'Procurement of Enterprise Server & Network Equipment',
+    procuring_entity: 'Directorate General of Health Services (DGHS)',
+    bidder: 'TechnoServe Solutions Ltd.',
+    submission_deadline: '2026-10-20',
+  },
+  requirements: [
+    {
+      id: 'R01',
+      order: 1,
+      title_en: 'Trade License',
+      title_bn: 'ট্রেড লাইসেন্স',
+      mandatory: true,
+      has_expiry: true,
+    },
+    {
+      id: 'R02',
+      order: 2,
+      title_en: 'TIN Certificate',
+      title_bn: 'টিআইএন সনদপত্র',
+      mandatory: true,
+      has_expiry: false,
+    },
+    {
+      id: 'R03',
+      order: 3,
+      title_en: 'VAT Registration Certificate',
+      title_bn: 'ভ্যাট নিবন্ধন সনদপত্র',
+      mandatory: true,
+      has_expiry: false,
+    },
+    {
+      id: 'R04',
+      order: 4,
+      title_en: 'Bank Solvency Letter',
+      title_bn: 'ব্যাংক সচ্ছলতা সনদপত্র',
+      mandatory: true,
+      has_expiry: true,
+    },
+    {
+      id: 'R05',
+      order: 5,
+      title_en: 'Experience Certificates',
+      title_bn: 'কাজের অভিজ্ঞতার সনদপত্র',
+      mandatory: true,
+      has_expiry: false,
+    },
+    {
+      id: 'R06',
+      order: 6,
+      title_en: 'Technical Proposal',
+      title_bn: 'কারিগরি প্রস্তাবনা',
+      mandatory: true,
+      has_expiry: false,
+    },
+    {
+      id: 'R07',
+      order: 7,
+      title_en: 'Financial Proposal',
+      title_bn: 'আর্থিক প্রস্তাবনা',
+      mandatory: true,
+      has_expiry: false,
+    },
+    {
+      id: 'R08',
+      order: 8,
+      title_en: 'Manufacturer Authorization Form (MAF)',
+      title_bn: 'উৎপাদক অনুমোদন পত্র (MAF)',
+      mandatory: false,
+      has_expiry: true,
+    },
+  ],
+};
